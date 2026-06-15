@@ -1,0 +1,12 @@
+name: dorado-sim-env
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python>=3.8
+  - psutil
+  - pip
+  - pip:
+      - pod5
+      - nvidia-ml-py
